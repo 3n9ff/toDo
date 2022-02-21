@@ -1,0 +1,57 @@
+body{
+    background: #eee;
+}
+
+header{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display:flex;
+    justify-content: center;
+    height: 12vh;
+}
+
+#mainTitle{
+    color: #DA1212;
+}
+
+section{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 100;
+    display: flex;
+    height: 70vh;
+    justify-content: space-evenly;
+
+}
+
+.section-div{
+    text-align: center;
+    width: 30vw;
+    height:100%;
+}
+
+.items-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 179, 179);
+    overflow: hidden auto;
+}
+
+.separators{
+    height: 2px;
+    width: 80%;
+    background-color: black;
+    margin: 12px auto;
+}
+
+.item-inputs{
+    background: none;
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+.items-value{
+    display: inline-block;
+    height: 0px;
+}
